@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/AliBaig123/nginx-argocd.git
     targetRevision: main
-    path: nginx-argocd
+    path: .
 
   destination:
     server: https://kubernetes.default.svc
